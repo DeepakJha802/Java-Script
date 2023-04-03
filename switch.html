@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Switch</title>
+  </head>
+  <body>
+    <h3>Enter Your Choice :</h3>
+    <ul>
+      <li>Add</li>
+      <li>Sub</li>
+      <li>Mult</li>
+      <li>Div</li>
+    </ul>
+    <br />
+    <form>
+        <input type="text" name="" id="choices">
+      <br/>
+      <button onclick="myfun()"> Click me </button>
+    </form>
+    <script type="text/javascript">
+      function myfun() {
+        var choice = document.getElementById("choices").value;
+        // alert(choice);
+        switch (choice) {
+          case "Add":
+            var a = 10;
+            var b = 20;
+            var sum = a + b;
+            document.write("Addition of the two number is : " + sum);
+            break;
+          case "Sub":
+            var a = 10;
+            var b = 20;
+            var sub = b - a;
+            document.write("Subtraction of the two number is : " + sub);
+            break;
+          case "Mult":
+            var a = 10;
+            var b = 20;
+            var mult = a * b;
+            document.write("Multiplication of the two number is : " + mult);
+            break;
+          case "Div":
+            var a = 10;
+            var b = 20;
+            var div = b / a;
+            document.write("Division of the two number is : " + div);
+            break;
+          default:
+            alert("Invalid Choice.");
+        }
+      }
+    </script>
+  </body>
+</html>
