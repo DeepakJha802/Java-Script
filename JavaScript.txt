@@ -16,3 +16,29 @@ JavaScript has 8 Datatypes
 7. Symbol
 8. Object
 
+In javaScript we using "prompt" for taking input from user. prompt is always take input as string and it is only working in browser
+In javaScript prompt ask us to something and alert tell us something
+
+let a = "45"
+a = Number.parseInt(a); // This is convert string into a Number it is also known as type casting.
+
+Template Literals :- Template literals are enclosed by backtick (`) characters instead of double or single quotes.Along with having normal strings,
+template literals can also contain other parts called placeholders, which are embedded expressions delimited by a dollar sign and curly braces: ${expression}.
+
+String Interpolation :- When variable is directly inserted into template literals that is called string Interpolation.
+
+String is immutable in javaScript.
+In javaScript array is a type of Object.
+In javaScript join() Mehtods return a type of String.
+In javaScript pop() Mehtods remove the last element from the array. and return the poped element.
+In javaScript push() Mehtods add element in end of the array. and return the new array length.
+In javaScript shift() Mehtods remove first element from array and return that element.
+In javaScript unshift() Mehtods add element in the begging in the array. and return new array length.
+In JavaScript concat() Mehtods is used to concatenates the arrays. but original array does not change.
+In javaScript sort() Mehtods sort the array alphabetically.
+In javaScript reverse() Mehtods is reverse the array. this is change the original array.
+In javaScript splice(i, j ,x , y, z) Mehtods is add , delete element in the array. i denote the position of the array , j denote how many element you hav to deletein
+              the array, x , y , z denote the element which you have add to.
+
+
+
