@@ -38,7 +38,5 @@ In JavaScript concat() Mehtods is used to concatenates the arrays. but original 
 In javaScript sort() Mehtods sort the array alphabetically.
 In javaScript reverse() Mehtods is reverse the array. this is change the original array.
 In javaScript splice(i, j ,x , y, z) Mehtods is add , delete element in the array. i denote the position of the array , j denote how many element you hav to deletein
-              the array, x , y , z denote the element which you have add to.
-
-
-
+              the array, x , y , z denote the element which you have add to. and it return the delete value of the array.
+In javaScript slice() Mehtods give the piece of array it create a new array
